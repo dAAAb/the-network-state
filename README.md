@@ -1,23 +1,49 @@
-# the-network-state
-Translation of *the Network State*
+# 網路國家（The Network State）— 台灣繁體中文翻譯
 
 - [https://thenetworkstate.com/](https://thenetworkstate.com/)
 - [https://www.youtube.com/watch?v=NlY8HICFiRs&t=607s&ab_channel=TheKnowledgeProject](https://www.youtube.com/watch?v=NlY8HICFiRs&t=607s&ab_channel=TheKnowledgeProject)
 
-## 词汇表
-- Network State 
-网络国家
-参考 https://www.youtube.com/watch?v=imhUmLtlZpw&ab_channel=TED 的译法。
-National State 民族国家、Civilization State 文明国家
+本倉庫為《The Network State》的台灣繁體中文線上版翻譯與整理，著重使用台灣常用的詞彙與書寫習慣。
 
-- Startup Societies 
-初创社会
-参考 [https://www.startupsocieties.com/](https://www.startupsocieties.com/)
+## 感謝與來源
+- 原著作者與團隊：感謝 Balaji Srinivasan 及其團隊提供的原始內容與網站資源。
+- 簡體中文版專案：本專案最初 fork 自簡體中文翻譯專案，感謝原譯者群的工作基礎與整理；本倉庫在其上全面正體化並調整台灣慣用語。
 
-- Chinese Control
-中国式控制
-参考 [https://en.wikipedia.org/wiki/Chinese_Parents](https://en.wikipedia.org/wiki/Chinese_Parents)
-相应的我们把 American Anarchy 译成美国式无政府。
+## 用語與術語表（台灣慣用）
+- 網路國家（Network State）
+- 民族國家（National State）、文明國家（Civilization State）
+- 網際網路（非「互聯網」）
+- 協議（非「協定」）
+- 演算法（非「算法」）
+- 應用程式（非「應用程序」）
+- 使用者（非「用戶」）
+- 社群媒體（非「社交媒體」）
+- 群眾募資（非「眾籌」）
+- 註腳（非「腳注/脚注」）
+- 再中心化（非「重中心化」）
+- 網民（在「神民、國民、網民」語境中為押韻考量保留）
 
+## 正體化流程與注意事項
+本翻譯採用自動化轉換搭配人工校對：
+- 自動化：OpenCC s2twp（簡體→台灣正體）為基礎，並以自訂詞彙覆寫台灣慣用用語。
+- 一致性原則：本倉庫採用上列術語表，於內文與檔名全面一致。
+- 檔名與路由：章節檔名已改為台灣正體；若後續加入內部連結，請以新檔名與路由為準。
+- 專有名詞：依台灣常見/官方譯名；如無定譯，保留英文並於首次出現處補充說明。
+- 標點與格式：中文全形標點優先；連結與引用維持 Markdown 規範。
+
+若需重跑自動化轉換，建議步驟（參考）：
+1) 安裝 OpenCC 並建立自訂詞彙（s2twp + 覆寫）
+2) 對 `docs/src` 內所有 `.md` 執行內容轉換
+3) 依慣用詞重新命名檔名
+4) 進行抽查校對與連結檢查
+
+## 貢獻方式
+- 歡迎以 Pull Request 提出修訂（錯別字、用語一致、譯名校正等）。
+- 新增內容時，請遵循「術語表」與「正體化注意事項」。
+- 若涉及專有名詞或學術用語，請附上可靠參考來源。
+
+## 版權與免責聲明
+- 原著作權屬於原作者與出版社；本翻譯僅供學習、研究與交流使用。
+- 若原權利人提出要求，本專案將配合調整或下架相關內容。
 
 
