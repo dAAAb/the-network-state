@@ -3,7 +3,7 @@
 - [https://thenetworkstate.com/](https://thenetworkstate.com/)
 - [https://www.youtube.com/watch?v=NlY8HICFiRs&t=607s&ab_channel=TheKnowledgeProject](https://www.youtube.com/watch?v=NlY8HICFiRs&t=607s&ab_channel=TheKnowledgeProject)
 
-本倉庫為《The Network State》的台灣繁體中文線上版翻譯與整理，著重使用台灣常用的詞彙與書寫習慣。
+本儲存庫為《The Network State》的台灣繁體中文線上版翻譯與整理，著重使用台灣常用的詞彙與書寫習慣。
 
 ## 感謝與來源
 - 原著作者與團隊：感謝 Balaji Srinivasan 及其團隊提供的原始內容與網站資源。
@@ -26,8 +26,8 @@
 ## 正體化流程與注意事項
 本翻譯採用自動化轉換搭配人工校對：
 - 自動化：OpenCC s2twp（簡體→台灣正體）為基礎，並以自訂詞彙覆寫台灣慣用用語。
-- 一致性原則：本倉庫採用上列術語表，於內文與檔名全面一致。
-- 檔名與路由：章節檔名已改為台灣正體；若後續加入內部連結，請以新檔名與路由為準。
+- 一致性原則：本儲存庫採用上列術語表，於內文與檔名全面一致。
+- 檔名與路徑：章節檔名已改為台灣正體；若後續加入內部連結，請以新檔名與路徑為準。
 - 專有名詞：依台灣常見/官方譯名；如無定譯，保留英文並於首次出現處補充說明。
 - 標點與格式：中文全形標點優先；連結與引用維持 Markdown 規範。
 
